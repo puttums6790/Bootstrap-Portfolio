@@ -1,17 +1,15 @@
 .panel-footer {
-  text-align: center;
-   position: absolute;
-  right: 0;
+  position: fixed;
   bottom: 0;
-  left: 0;
-  padding: 1rem;
-  background-color: #efefef;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 40px;
+  line-height: 20px; /* Vertically center the text there */
+  background-color: #474C48;
   text-align: center;
+  color: white;
 }
-.panel-success {
-  max-width: 300px;
-  float: right;
-}
+
 .container-1 {
   max-width: 960px;
   width: 100%;
@@ -24,3 +22,7 @@
 body {
   background-image: url("../images/dustscratches.png");
  }
+ul li {
+    display: inline;
+    list-style-type: none;
+}
