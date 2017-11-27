@@ -1,6 +1,7 @@
 .panel-footer {
-  position: fixed;
-  bottom: 0;
+  position: relative;
+  clear: both;
+  bottom: 0px;
   width: 100%;
   /* Set the fixed height of the footer here */
   height: 40px;
