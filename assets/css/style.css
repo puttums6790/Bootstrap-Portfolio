@@ -9,6 +9,7 @@
   background-color: #474C48;
   text-align: center;
   color: white;
+  margin: 0 auto;
 }
 
 body {
@@ -17,4 +18,8 @@ body {
 ul li {
     display: inline;
     list-style-type: none;
+}
+.panel-body {
+  width: 100%;
+  margin: 0 auto;
 }
